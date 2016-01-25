@@ -1,7 +1,8 @@
 //console.clear();
 
 function getData() {
- var callback = makeid();	$.getJSON("https://discordapp.com/api/servers/137043335259881472/widget.json?callback=" + callback, function(json) {
+ var callback = makeid();
+ 	$.getJSON("https://discordapp.com/api/servers/137043335259881472/widget.json?callback=" + callback, function(json) {
 	  console.log(json);
 	  buildWidget(json);
 	})
@@ -56,6 +57,4 @@ function makeid() {
 	return text;
 }
 
-$(document).ready(function() {
-  getData();
-});
+getData();

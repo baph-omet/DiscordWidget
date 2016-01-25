@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+#widgetBox * {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#widgetBox {
+  width: 230px;
+  height: auto;
+  min-height: 300px;
+  background-color: #222;
+  border-radius: 10px;
+  position: relative;
+}
+
+#widgetBox #title {
+  position: relative;
+  width: 210px;
+  height: 45px;
+  top: 0;
+  background-color: #444;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#widgetBox #title img {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  right: 10px;
+}
+
+#widgetBox h2 {
+  color: #ccc;
+  font-size: 11pt;
+  margin: 0;
+}
+
+#widgetBox h3 {
+  color: #bbb;
+  font-size: 10pt;
+  margin: 0;
+}
+
+#widgetBox #body {
+  padding: 10px;
+}
+
+#widgetBox ul {
+  list-style: none;
+  color: #ccc;
+  padding: 5px;
+  margin: 0;
+}
+
+#widgetBox li {
+  color: #999;
+  line-height:13px;
+  margin-bottom:5px;
+  font-size:11pt;
+}
+
+#widgetBox li img {
+  width: 16px;
+  height: auto;
+  border-radius: 10px;
+}
+
+#widgetBox p {
+  display:inline-block;
+  margin:0;
+}
+
+#widgetBox .avatar {
+  margin-left:20px;
+  margin-top:3px;
+}
+
+#widgetBox #members {
+  margin-bottom: 20px;
+}
+
+#widgetBox .idle {
+  color: #666;
+}
+
+#widgetBox .game {
+  color:#666;
+  margin-left:20px;
+  font-size:8pt;
+  margin-top:0;
+}
+
+#widgetBox .game b {
+  color:#777;
+}
+
+#widgetBox #connectButton {
+  position: absolute;
+  bottom: 0;
+  color: #bbb;
+  background-color: #444;
+  text-align: center;
+  width: 230px;
+  height: 30px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  line-height: 25px;
+}
+
+#widgetBox #connectButton:hover {
+  background-color: #666;
+}

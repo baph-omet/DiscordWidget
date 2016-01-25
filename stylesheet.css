@@ -1,9 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
-  margin:0;
+	margin:0;
 }
 
-#widgetBox * {
+* {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -13,10 +14,10 @@ body {
   min-height: 300px;
   background-color: #222;
   border-radius: 10px;
-  position: relative;
+  position: absolute;
 }
 
-#widgetBox #title {
+#title {
   position: relative;
   width: 210px;
   height: 45px;
@@ -27,79 +28,79 @@ body {
   border-top-left-radius: 10px;
 }
 
-#widgetBox #title img {
+#title img {
   width: 48px;
   height: 48px;
   position: absolute;
   right: 10px;
 }
 
-#widgetBox h2 {
+h2 {
   color: #ccc;
   font-size: 11pt;
   margin: 0;
 }
 
-#widgetBox h3 {
+h3 {
   color: #bbb;
   font-size: 10pt;
   margin: 0;
 }
 
-#widgetBox #body {
+#body {
   padding: 10px;
 }
 
-#widgetBox ul {
+ul {
   list-style: none;
   color: #ccc;
   padding: 5px;
   margin: 0;
 }
 
-#widgetBox li {
+li {
   color: #999;
   line-height:13px;
   margin-bottom:5px;
   font-size:11pt;
 }
 
-#widgetBox li img {
+li img {
   width: 16px;
   height: auto;
   border-radius: 10px;
 }
 
-#widgetBox p {
+p {
   display:inline-block;
   margin:0;
 }
 
-#widgetBox .avatar {
+.avatar {
   margin-left:20px;
   margin-top:3px;
 }
 
-#widgetBox #members {
+#members {
   margin-bottom: 20px;
 }
 
-#widgetBox .idle {
+.idle {
   color: #666;
 }
 
-#widgetBox .game {
+.game {
   color:#666;
   margin-left:20px;
   font-size:8pt;
   margin-top:0;
 }
 
-#widgetBox .game b {
+.game b {
   color:#777;
 }
 
-#widgetBox #connectButton {
+#connectButton {
   position: absolute;
   bottom: 0;
   color: #bbb;
@@ -112,6 +113,6 @@ body {
   line-height: 25px;
 }
 
-#widgetBox #connectButton:hover {
+#connectButton:hover {
   background-color: #666;
 }

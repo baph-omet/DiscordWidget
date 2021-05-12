@@ -1,4 +1,4 @@
-console.clear();
+//console.clear();
 
 function getData() {
   var callback = makeid();

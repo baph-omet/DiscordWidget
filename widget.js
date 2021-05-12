@@ -30,8 +30,6 @@ function buildWidget(json) {
   }
   document.getElementById("channels").innerHTML = channels;
 
-
-
   // Online Members
   var members = "";
   var shownRoles = ["admin", "moderator", "vip", "patron", "contributor"];
@@ -57,10 +55,6 @@ function makeid() {
     text += possible.charAt(Math.floor(Math.random() * possible.length));
 
   return text;
-}
-
-function getUserData(json) {
-	
 }
 
 getData();
